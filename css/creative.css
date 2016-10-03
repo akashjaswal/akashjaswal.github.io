@@ -9,13 +9,14 @@ body {
   height: 100%;
   width: 100%;
 }
-body {
+/*body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
-}
+}*/
 hr {
   border-color: #f05f40;
-  border-width: 3px;
+  border-width: 2px;
   max-width: 50px;
+
 }
 hr.light {
   border-color: white;
@@ -41,10 +42,13 @@ h6 {
 p {
   font-size: 16px;
   line-height: 1.5;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
+  /*font-family: 'Merriweather';*/
+  font: sans-serif;
+  margin-top: 5px;
 }
 .bg-primary {
-  background-color: #f05f40;
+  background-color: #2c3e50;
 }
 .bg-dark {
   background-color: #222222;
@@ -151,13 +155,14 @@ header {
   -o-background-size: cover;
   background-position: center;
   background-image: url('../img/header.jpg');
+  background-image: opacity(0.6);
   text-align: center;
   color: white;
 }
 header .header-content {
   position: relative;
   text-align: center;
-  padding: 100px 15px 100px;
+  padding: 15px 15px 15px;
   width: 100%;
 }
 header .header-content .header-content-inner h1 {
@@ -167,13 +172,13 @@ header .header-content .header-content-inner h1 {
   margin-bottom: 0;
 }
 header .header-content .header-content-inner hr {
-  margin: 30px auto;
+  margin: 20px auto;
 }
 header .header-content .header-content-inner p {
   font-weight: 300;
   color: rgba(255, 255, 255, 0.7);
   font-size: 16px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 @media (min-width: 768px) {
   header {
@@ -181,7 +186,7 @@ header .header-content .header-content-inner p {
   }
   header .header-content {
     position: absolute;
-    top: 50%;
+    top: 22%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -197,6 +202,7 @@ header .header-content .header-content-inner p {
     max-width: 80%;
     margin-left: auto;
     margin-right: auto;
+    color: white;
   }
 }
 .section-heading {
@@ -252,7 +258,7 @@ header .header-content .header-content-inner p {
   font-size: 14px;
 }
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-  font-size: 18px;
+  font-size: 14px;
 }
 .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
@@ -262,10 +268,10 @@ header .header-content .header-content-inner p {
 }
 @media (min-width: 768px) {
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
-    font-size: 16px;
+    font-size: 18px;
   }
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-    font-size: 22px;
+    font-size: 16px;
   }
 }
 .call-to-action h2 {
@@ -328,7 +334,8 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-primary {
   color: #ffffff;
-  background-color: #f05f40;
+  /*background-color: #f05f40;*/
+  background-color: #34495e;
   border-color: #f05f40;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
