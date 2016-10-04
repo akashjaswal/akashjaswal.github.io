@@ -187,11 +187,12 @@ header .header-content .header-content-inner p {
   }
   header .header-content {
     position: absolute;
-    top: 22%;
+    top: 60%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     padding: 0 50px;
+    font-family: sans-serif;
   }
   header .header-content .header-content-inner {
     max-width: 1000px;
