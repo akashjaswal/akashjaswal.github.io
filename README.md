@@ -1,2 +1,2 @@
 # akashjaswal.github.io
-Website for hosting projects 
+My website for hosting projects - [Check it out!](http://akashjaswal.github.io/).
